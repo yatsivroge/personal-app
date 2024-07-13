@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "assets/styles/shared";
+
 /* Order */
 @layer primeng, reset;
 
@@ -21,6 +24,9 @@
   .p-toolbar {
     border-radius: 0;
     border: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 
